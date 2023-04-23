@@ -1,0 +1,48 @@
+.info-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.infor-container h1 {
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.info-container p {
+    font-size: 1em;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.info-container p span {
+    font-weight: bold;
+}
+
+.info-container p a {
+    color: black;
+    text-decoration: none;
+
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+.description {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 500px;
+}

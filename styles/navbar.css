@@ -11,7 +11,7 @@ li {
     margin: 0 10px;
 }
 
-a {
+nav ul li a {
     display: block;
     color: black;
     text-align: center;
@@ -19,6 +19,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+nav ul li a:hover {
     background-color: lightgrey;
+    border-radius: 100px 100px 100px 100px;
 }
