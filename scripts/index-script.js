@@ -14,7 +14,7 @@ const types = {
 };
 
 
-fetch("http://webapi19sa-1.course.tamk.cloud/v1/weather")
+fetch("https://webapi19sa-1.course.tamk.cloud/v1/weather")
   .then((response) => response.json())
   .then((data) => {
     const measurements = data.slice(0, 30).reverse(); // we want number 30 to be the latest measurement
