@@ -10,6 +10,7 @@ const types = {
   wind_direction: "Wind direction",
   wind_speed: "Wind speed",
   light: "Light",
+  rain: "Rain",
 };
 
 
