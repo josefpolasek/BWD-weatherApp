@@ -1,8 +1,23 @@
+@import "navbar.css";
+
 body {
     font-family: sans-serif;
-    
+
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+body div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 body h1 {

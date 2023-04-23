@@ -22,13 +22,9 @@ fetch("http://webapi19sa-1.course.tamk.cloud/v1/weather")
 
     let row_number = 1;
     measurements.forEach((measurement) => {
-      // console.log(measurement);
 
       let date = new Date(measurement.date_time);
-      console.log(date);
-      // console.log(Object.keys(measurement.data));
-      // console.log(Object.values(measurement.data));
-
+      // console.log(date);
 
       const hours = date.getHours() < 10 ? "0" + date.getHours() : date.getHours();
       const minutes = date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes();
