@@ -1,4 +1,4 @@
-fetch("http://webapi19sa-1.course.tamk.cloud/v1/weather/temperature")
+fetch("https://webapi19sa-1.course.tamk.cloud/v1/weather/temperature")
   .then((response) => response.json())
   .then((data) => {
     const measurements = data.slice(0, 20); // they're in the correct order for temperature
