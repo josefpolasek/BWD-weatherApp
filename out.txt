@@ -1,0 +1,182 @@
+[
+  {
+    id: 113140415,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:45.119Z',
+    data: { wind_speed: 0 }
+  },
+  {
+    id: 113140414,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:45.104Z',
+    data: { rain: 508636.3125 }
+  },
+  {
+    id: 113140413,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:45.093Z',
+    data: { wind_direction: 128 }
+  },
+  {
+    id: 113140412,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:45.079Z',
+    data: { temperature: 25 }
+  },
+  {
+    id: 113140411,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:45.063Z',
+    data: { light: 18.879999 }
+  },
+  {
+    id: 113140410,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:45.048Z',
+    data: { light: 18.879999 }
+  },
+  {
+    id: 113140409,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:45.033Z',
+    data: { humidity_out: 100 }
+  },
+  {
+    id: 113140408,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:45.001Z',
+    data: { humidity_in: 58.560001 }
+  },
+  {
+    id: 113140407,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.983Z',
+    data: { wind_speed: 0 }
+  },
+  {
+    id: 113140406,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.957Z',
+    data: { humidity_out: 100 }
+  },
+  {
+    id: 113140405,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.942Z',
+    data: { humidity_in: 58.560001 }
+  },
+  {
+    id: 113140404,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.927Z',
+    data: { wind_speed: 0 }
+  },
+  {
+    id: 113140403,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.910Z',
+    data: { rain: 508636.3125 }
+  },
+  {
+    id: 113140402,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.894Z',
+    data: { wind_direction: 146 }
+  },
+  {
+    id: 113140401,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.874Z',
+    data: { temperature: 25 }
+  },
+  {
+    id: 113140400,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.856Z',
+    data: { light: 18.73 }
+  },
+  {
+    id: 113140399,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.826Z',
+    data: { light: 18.73 }
+  },
+  {
+    id: 113140398,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.812Z',
+    data: { humidity_out: 100 }
+  },
+  {
+    id: 113140397,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.796Z',
+    data: { humidity_in: 58.560001 }
+  },
+  {
+    id: 113140396,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.779Z',
+    data: { wind_speed: 0 }
+  },
+  {
+    id: 113140395,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.762Z',
+    data: { humidity_out: 100 }
+  },
+  {
+    id: 113140394,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.745Z',
+    data: { humidity_in: 58.560001 }
+  },
+  {
+    id: 113140393,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.728Z',
+    data: { wind_speed: 0 }
+  },
+  {
+    id: 113140392,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.710Z',
+    data: { rain: 508636.3125 }
+  },
+  {
+    id: 113140391,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.694Z',
+    data: { wind_direction: 186 }
+  },
+  {
+    id: 113140390,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.608Z',
+    data: { temperature: 25 }
+  },
+  {
+    id: 113140389,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.594Z',
+    data: { light: 18.73 }
+  },
+  {
+    id: 113140388,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.576Z',
+    data: { light: 18.73 }
+  },
+  {
+    id: 113140387,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.558Z',
+    data: { humidity_out: 100 }
+  },
+  {
+    id: 113140386,
+    device_id: 'ICT_2018',
+    date_time: '2023-04-21T07:53:44.542Z',
+    data: { DS1820_temp_1: 14.5 }
+  }
+]
