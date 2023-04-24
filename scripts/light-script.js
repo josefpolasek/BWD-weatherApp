@@ -1,26 +1,28 @@
 fetch("https://webapi19sa-1.course.tamk.cloud/v1/weather")
   .then((response) => response.json())
   .then((data) => {
-    const measurements = data.slice(0, 300).reverse(); // we want number 30 to be the latest measurement
+    const measurements = data;
+
     const tableBody = document.getElementById("light-table-body");
 
-    let row_number = 1;
-    measurements.forEach((measurement) => {
-      if(Object.keys(measurement.data) == "light") {
-        console.log((measurement.data));
-        console.log((measurement.date_time));
-      }
+    let new_data = []; // only the last 20 measurements
 
-      if (
-        Object.keys(measurement.data) != "light" ||
-        row_number > 20
-      ) {
+    let counter = 0;
+    measurements.forEach((measurement) => {
+      if (Object.keys(measurement.data) == "light" && counter < 20) {
+        new_data.push(measurement);
+        counter += 1;
+      }
+    });
+
+    new_data.reverse();
+
+    let row_number = 1;
+    new_data.forEach((measurement) => {
+      // we want 20 measurements of wind direction
+      if (Object.keys(measurement.data) != "light") {
         return;
       }
-
-      console.log((measurement.date_time));
-      // console.log(new Date(measurement.date_time));
-
 
       let date = new Date(measurement.date_time);
       // console.log(date);

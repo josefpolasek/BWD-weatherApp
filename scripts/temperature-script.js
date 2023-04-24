@@ -1,7 +1,7 @@
 fetch("https://webapi19sa-1.course.tamk.cloud/v1/weather/temperature")
   .then((response) => response.json())
   .then((data) => {
-    const measurements = data.slice(0, 20); // they're in the correct order for temperature
+    const measurements = data; // they're in the correct order for temperature
     const tableBody = document.getElementById("temperature-table-body");
 
     let row_number = 1;
